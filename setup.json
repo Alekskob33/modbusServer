@@ -1,0 +1,23 @@
+{
+  "tcp": {
+    "port": 502,
+    "host": "127.0.0.1"
+  },
+  "rtu": {
+    "port": 50502,
+    "slaveId": 1,
+    "frameTimeout": 500
+  },
+  "log": {
+    "fileName": "log.txt"
+  },
+  "backup": {
+    "interval": 1,
+    "registers": {
+      "DO": [],
+      "DI": [],
+      "AO": [],
+      "AI": []
+    }
+  }
+}
